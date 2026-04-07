@@ -1,0 +1,31 @@
+{
+  "commands":[
+    {
+      "id":"warpp.all-custom-att-to-sharesets",
+      "displayName":"Convert All Custom Attenuations to ShareSets and Reassign",
+      "defaultShortcut":"",
+      "program":"pyw.exe",
+      "startMode":"SingleSelectionSingleProcess",
+      "args":"-3 ${CurrentCommandDirectory}\\..\\all-custom-att-to-sharesets.py ${id}",
+      "cwd":"",
+      "contextMenu":{
+        "basePath":"WAAPI Tools/Mikro Scripts",
+	"visibleFor": "WorkUnit"
+      },
+      "redirectOutputs":true
+    },
+    {
+      "id":"warpp.selected-wu-custom-att-to-sharesets",
+      "displayName":"Convert Custom Attenuations in Selected WorkUnits to ShareSets and Reassign",
+      "defaultShortcut":"",
+      "program":"pyw.exe",
+      "startMode":"MultipleSelectionSingleProcessSpaceSeparated",
+      "args":"-3 ${CurrentCommandDirectory}\\..\\selected-wu-custom-att-to-sharesets.py ${id}",
+      "cwd":"",
+      "contextMenu":{
+        "basePath":"WAAPI Tools/Mikro Scripts"
+      },
+      "redirectOutputs":true
+    }
+  ]
+}
