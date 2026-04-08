@@ -9,8 +9,7 @@
       "args":"-3 ${CurrentCommandDirectory}\\..\\all-custom-att-to-sharesets.py ${id}",
       "cwd":"",
       "contextMenu":{
-        "basePath":"WAAPI Tools/Mikro Scripts",
-	"visibleFor": "WorkUnit"
+        "basePath":"WAAPI Tools/Mikro Scripts"
       },
       "redirectOutputs":true
     },
@@ -23,7 +22,8 @@
       "args":"-3 ${CurrentCommandDirectory}\\..\\selected-wu-custom-att-to-sharesets.py ${id}",
       "cwd":"",
       "contextMenu":{
-        "basePath":"WAAPI Tools/Mikro Scripts"
+        "basePath":"WAAPI Tools/Mikro Scripts",
+        "visibleFor": "WorkUnit"
       },
       "redirectOutputs":true
     }
